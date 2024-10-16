@@ -1,0 +1,11 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-image: url("/looper-pattern.svg");
+}

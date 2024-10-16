@@ -1,0 +1,11 @@
+
+@keyframes float{
+    from {
+        transform: translateY(0px);
+    } to{
+        transform: translateY(20px);
+    }
+}
+.custom-animation{
+    animation: alternate float 4s infinite;
+}
